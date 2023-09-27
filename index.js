@@ -1,4 +1,4 @@
-// // code your solution here
+// // // code your solution here
 const record = [
   { 
     year: "2015", 
@@ -11,8 +11,11 @@ const record = [
 
 
 function superbowlWin(record) {
-  const outcome = record.find(key => key.result === "W");
+  const outcome = record.find(item => item.result === "W");
  
   return outcome? outcome.year : undefined;
 }
 superbowlWin(record);
+
+
+ 
